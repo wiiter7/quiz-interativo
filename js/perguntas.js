@@ -75,7 +75,7 @@
             }
         ]
     }, {
-        enunciado: "seu pai sabe que voce gosta de rapazes ?",
+        enunciado: "voce ja contou para seu pai que voce gosta de rapazes ?",
         alternativas: [
             {
                texto: "sim",
