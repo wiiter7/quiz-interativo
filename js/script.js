@@ -46,15 +46,16 @@ function mostraAlternativas() {
     }
 }
 
-function respostaSelecionada(opcaoSelecionada) {
-    const afimacoes = aleatorio(opcaoSelecionada.afimacao);
-    historiaFinal += afirmacoes +" ";
-    if(opcaoSelecionada.proxima;
-}else {
-    motraResultado();
-    return;
-}
-mostrarPergunta();
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    historiaFinal += afirmacoes + " ";
+   if(opcaoSelecionada.proxima !== undefined) {
+       atual = opcaoSelecionada.proxima;
+   }else {
+       mostraResultado();
+       return;
+   }
+    mostraPergunta();
 }
 
 function mostraResultado() {
@@ -70,7 +71,6 @@ function jogarNovamente() {
     historia = "";
     caixaResultado.classList,remove("mostrar");
     mostrarPergunta();
-}
 }
 
 function substituiNOme() {

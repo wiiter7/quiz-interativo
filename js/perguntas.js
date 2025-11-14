@@ -1,16 +1,16 @@
   const perguntas = [
     {
-        enunciado: "Voce é gay ?",
+        enunciado: "quem é o pai de goku ?",
         alternativas: [
             {
-               texto: "sim",
+               texto: "Bardock",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
                ],
             },
             {
-               texto: "não tem certeza",
+               texto: "rei vegita",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
@@ -19,17 +19,17 @@
         ]
     },
      {
-        enunciado: "Voce é hetero ??",
+        enunciado: "Quantas Esferas do Dragão são necessárias para invocar o dragão Shenlong na Terra??",
         alternativas: [
             {
-               texto: "não",
+               texto: "7",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
                ],
             },
             {
-               texto: "Acho que não",
+               texto: "8",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
@@ -38,17 +38,17 @@
         ]
     },
      {
-        enunciado: "Voce ja deu o caneco ?",
+        enunciado: "Qual é a primeira transformação que Goku atinge? ?",
         alternativas: [
             {
-               texto: "sempre",
+               texto: "super saiyan",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
                ],
             },
             {
-               texto: "não lembro",
+               texto: "super saiyan god",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
@@ -57,17 +57,17 @@
         ]
     },
      {
-        enunciado: "Voce é homem?",
+        enunciado: "Quem é o criador original das Dragon Balls da Terra?",
         alternativas: [
             {
-               texto: "no fundo sim",
+               texto: "Kami-Sama",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
                ],
             },
             {
-               texto: "por fora sim",
+               texto: "Piccolo",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
@@ -75,17 +75,17 @@
             }
         ]
     }, {
-        enunciado: "voce ja contou para seu pai que voce gosta de rapazes ?",
+        enunciado: "Qual destes vilões não é de um filme, mas sim da série principal ?",
         alternativas: [
             {
-               texto: "sim",
+               texto: "Raditz",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
                ],
             },
             {
-               texto: "não tenho coragem de contar",
+               texto: "Janemba",
                afirmacao: [
                 "afirmação 1",
                 "afirmação 2"
